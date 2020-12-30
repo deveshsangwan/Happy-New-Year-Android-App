@@ -1,4 +1,4 @@
-package com.example.happy_birthday
+package com.example.happynewyear
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.happy_birthday", appContext.packageName)
+        assertEquals("com.example.happynewyear", appContext.packageName)
     }
 }
