@@ -39,4 +39,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pngtreehappy_new_year_2021_golden_5363957"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-27dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
